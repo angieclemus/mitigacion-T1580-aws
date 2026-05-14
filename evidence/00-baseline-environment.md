@@ -1,27 +1,41 @@
 # EXP-00 — Caracterización del entorno AWS Academy Learner Lab
 
-> **Propósito de este documento**: registrar las capacidades y restricciones reales del entorno experimental durante la primera sesión, antes de construir cualquier recurso. Sirve como evidencia metodológica de las condiciones del laboratorio y justifica adaptaciones posteriores del diseño.
+> Propósito del documento: registrar las capacidades y restricciones reales del entorno experimental durante la primera sesión, antes de construir cualquier recurso. Sirve como evidencia metodológica de las condiciones del laboratorio y justifica adaptaciones posteriores del diseño.
 
 ## Metadatos
 
 | Campo | Valor |
 | --- | --- |
 | Identificador | EXP-00 |
-| Fecha | YYYY-MM-DD |
-| Hora de inicio | HH:MM (UTC-5) |
-| Hora de finalización | HH:MM (UTC-5) |
+| Fecha | 2026-05-14 |
+| Hora de inicio | 9:10 (UTC-5) |
+| Hora de finalización | ***** |
 | Operadora | Angie Catalina Lemus Leiva |
 | Objetivo específico | OE1 (preparación) |
-| Sesión Learner Lab | N.º |
+| Sesión Learner Lab | 1 |
 
 ## Configuración inicial
 
 | Item | Resultado |
 | --- | --- |
-| Cuenta AWS (enmascarada) | XXXXXXXXXXXX |
-| Rol/usuario asignado por el lab | (ej. `voclabs`) |
+| Cuenta AWS (enmascarada) | 660XXXXXXX722 |
+| Rol/usuario asignado por el lab | assumed-role/voclabs/userXXXXXXXX |
 | Región configurada | us-east-1 |
 | Perfil CLI local | learner-lab |
+
+## Entorno local
+
+| Herramienta | Versión |
+| --- | --- |
+| Sistema operativo | Windows [10/11] |
+| PowerShell | [salida de `$PSVersionTable.PSVersion`] |
+| AWS CLI | [salida de `aws --version`] |
+| Python | [salida de `python --version`] |
+| Editor | Visual Studio Code |
+| Cliente Git | GitHub Desktop |
+
+*Incidencia durante la configuración del perfil*:
+Al crear los archivos `credentials` y `config` con Notepad, Windows agregó automáticamente la extensión `.txt` (oculta por defecto en el Explorador). Esto causó el error `The config profile (learner-lab) could not be found` al ejecutar `aws sts get-caller-identity`. Se resolvió renombrando los archivos para eliminar la extensión con `Rename-Item`. Se deja constancia como nota práctica para futuras réplicas del laboratorio.
 
 ## Pruebas de capacidad — IAM
 
@@ -79,7 +93,7 @@ aws s3 ls --profile learner-lab
 
 ### S3-02 — Crear bucket
 ```bash
-aws s3 mb s3://tesis-test-bucket-$RANDOM --profile learner-lab
+aws s3 mb s3://tesis-test-bucket-$(Get-Random) --profile learner-lab
 ```
 **Resultado**: ____
 
@@ -93,7 +107,7 @@ aws ec2 describe-instances --profile learner-lab
 
 ### EC2-02 — Listar AMIs disponibles
 ```bash
-aws ec2 describe-images --owners amazon --filters "Name=name,Values=amzn2-ami-hvm-*-x86_64-gp2" --profile learner-lab --query 'Images[*].[ImageId,Name]' --output table | head -10
+aws ec2 describe-images --owners amazon --filters "Name=name,Values=amzn2-ami-hvm-*-x86_64-gp2" --profile learner-lab --query 'Images[0:10].[ImageId,Name]' --output table
 ```
 **Resultado**: ____
 
