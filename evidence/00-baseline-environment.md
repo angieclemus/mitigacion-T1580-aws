@@ -27,10 +27,10 @@
 
 | Herramienta | Versión |
 | --- | --- |
-| Sistema operativo | Windows [10/11] |
-| PowerShell | [salida de `$PSVersionTable.PSVersion`] |
-| AWS CLI | [salida de `aws --version`] |
-| Python | [salida de `python --version`] |
+| Sistema operativo | Windows 11 |
+| PowerShell | 5.1.26100.8115 |
+| AWS CLI | 2.34.45 (Python 3.14.4 embebido) |
+| Python (sistema) | 3.12.10 |
 | Editor | Visual Studio Code |
 | Cliente Git | GitHub Desktop |
 
