@@ -5,7 +5,8 @@ Tabla única de seguimiento de todas las pruebas del laboratorio. Se actualiza d
 | ID | Fecha | OE | Fase | Acción | Resultado esperado | Resultado observado | Evidencia | Estado |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EXP-00 | 2026-05-14 | OE1 | 1 | Caracterización del Learner Lab (IAM, S3, EC2, CloudTrail, CloudWatch) | Identificar capacidades y restricciones | En curso: entorno local configurado, reconocimiento pendiente | `evidence/00-baseline-environment.md` | ◐ |
-| EXP-01 | YYYY-MM-DD | OE3 | 3 | Pacu contra arquitectura baseline | Enumeración exitosa de la mayoría de recursos | | `evidence/01-attack-baseline-T1580.md` | ☐ |
+| EXP-01 | 2026-05-15 | OE3 | 3 | Pacu contra arquitectura baseline | Enumeración exitosa de la mayoría de recursos | Completado. 23 roles, 7 políticas, 1 EC2 (IP pública exfiltrada), 2 buckets S3, 2 archivos descargados. 0 alarmas. 0 logs. | `evidence/01-attack-baseline-T1580.md` | ☑ |
+01-attack-baseline-T1580.md` | ☐ |
 | CTL-01 | YYYY-MM-DD | OE2 | 2 | Block Public Access global en S3 | Bloqueo de acceso público a nivel de cuenta | | `evidence/02-controls-implementation.md#ctl-01` | ☐ |
 | CTL-02 | YYYY-MM-DD | OE2 | 2 | Cifrado por defecto SSE-S3 | Cifrado automático en todos los buckets | | `evidence/02-controls-implementation.md#ctl-02` | ☐ |
 | CTL-03 | YYYY-MM-DD | OE2 | 2 | Versionado en S3 | Versionado activo | | `evidence/02-controls-implementation.md#ctl-03` | ☐ |
