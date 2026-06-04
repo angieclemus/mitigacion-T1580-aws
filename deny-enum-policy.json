@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Sid":"DenyT1580Enumeration","Effect":"Deny","Action":["ec2:DescribeInstances","ec2:DescribeImages","ec2:DescribeSnapshots","ec2:DescribeSecurityGroups","ec2:DescribeVpcs","ec2:DescribeSubnets","s3:ListAllMyBuckets","iam:ListUsers","iam:ListRoles","iam:ListPolicies","iam:GetAccountAuthorizationDetails"],"Resource":"*"}]}
