@@ -1,0 +1,20 @@
+# Documentos de Office — mantener fuera del repositorio público
+*.docx
+*.xlsx
+*.pptx
+
+# Archivos de credenciales y configuración local
+*.env
+credentials
+config.local
+
+# Archivos temporales de Python / Pacu
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
