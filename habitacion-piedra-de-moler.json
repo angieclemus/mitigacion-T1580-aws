@@ -1,0 +1,475 @@
+{
+  "content": [
+    {
+      "id": "hab001a",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://via.placeholder.com/1600x500/8a8a7a/ffffff?text=Imagen+Hero+Habitacion",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#00000066",
+        "background_overlay_opacity": {"unit": "px", "size": 0.4},
+        "min_height": {"unit": "vh", "size": 55},
+        "content_position": "middle",
+        "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+        "css_classes": "hab-hero"
+      },
+      "elements": [
+        {
+          "id": "hab001b",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hab001c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "HABITACIÓN ESTÁNDAR",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 46, "sizes": []},
+                "typography_font_size_tablet": {"unit": "px", "size": 34},
+                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_letter_spacing": {"unit": "px", "size": 3},
+                "typography_font_weight": "300",
+                "typography_text_transform": "uppercase"
+              }
+            },
+            {
+              "id": "hab001d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "PIEDRA DE MOLER",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 16, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 4},
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "10", "right": "0", "bottom": "0", "left": "0"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab002a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "gap": "no",
+        "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "hab002b",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hab002c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/1400x700/9a9585/ffffff?text=Imagen+Principal+Habitacion",
+                  "id": ""
+                },
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab003a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 900},
+        "gap": "no",
+        "padding": {"unit": "px", "top": "60", "right": "20", "bottom": "40", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "35", "right": "15", "bottom": "20", "left": "15"}
+      },
+      "elements": [
+        {
+          "id": "hab003b",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hab003c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Al ingresar a tu santuario de tranquilidad en Piedra de Moler, serás recibido por [descripción del entorno de la habitación]. Nuestra habitación combina el confort moderno con el encanto natural, ofreciendo un espacio sereno para descansar y disfrutar. Tu baño privado cuenta con comodidades modernas que garantizan una estancia relajante y placentera.</p>",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+                "typography_line_height": {"unit": "em", "size": 1.8},
+                "text_color": "#555555"
+              }
+            },
+            {
+              "id": "hab003d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Características y Especificaciones de la Habitación:",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 20, "sizes": []},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "30", "right": "0", "bottom": "10", "left": "0"}
+              }
+            },
+            {
+              "id": "hab003e",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"text": "Cama: Cama tamaño [Queen/King] con ropa de cama premium.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Vista: Disfruta de vistas [tipo de vista] desde tu habitación.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Confort: Área de descanso acogedora equipada para tu comodidad.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Baño: Baño privado con regadera de lluvia y amenidades de cortesía.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Comodidades Modernas: Wi-Fi de alta velocidad y circuitos eléctricos accesibles.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}}
+                ],
+                "icon_size": {"unit": "px", "size": 5},
+                "icon_color": "#8a8a7a",
+                "space_between": {"unit": "px", "size": 10},
+                "text_indent": {"unit": "px", "size": 12},
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {"unit": "px", "size": 14},
+                "icon_typography_line_height": {"unit": "em", "size": 1.7},
+                "icon_color_text": "#555555"
+              }
+            },
+            {
+              "id": "hab003f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Amenidades y Servicios:",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 20, "sizes": []},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "30", "right": "0", "bottom": "10", "left": "0"}
+              }
+            },
+            {
+              "id": "hab003g",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"text": "Servicio a la Habitación: Disponible en horario [xx:xx a xx:xx], desayuno, comida y cena (costo adicional).", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Caja Fuerte: Guarda tus objetos de valor con total tranquilidad.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Secadora de Cabello: Disponible para tu cuidado personal.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Climatización: Ventilador de techo y aire acondicionado.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Limpieza Diaria: Tu habitación siempre impecable durante tu estancia.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}},
+                  {"text": "Cunas Disponibles: Bajo solicitud, para tu comodidad.", "selected_icon": {"value": "fas fa-circle", "library": "fa-solid"}}
+                ],
+                "icon_size": {"unit": "px", "size": 5},
+                "icon_color": "#8a8a7a",
+                "space_between": {"unit": "px", "size": 10},
+                "text_indent": {"unit": "px", "size": 12},
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {"unit": "px", "size": 14},
+                "icon_typography_line_height": {"unit": "em", "size": 1.7},
+                "icon_color_text": "#555555"
+              }
+            },
+            {
+              "id": "hab003h",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Experiencia:",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 20, "sizes": []},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "30", "right": "0", "bottom": "10", "left": "0"}
+              }
+            },
+            {
+              "id": "hab003i",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>[Texto de experiencia/atmósfera de la habitación describiendo cómo se siente el huésped al hospedarse aquí]. Esto es Piedra de Moler, donde cada detalle está pensado para tu descanso y disfrute.</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+                "typography_line_height": {"unit": "em", "size": 1.8},
+                "text_color": "#555555"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab004a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20"}
+      },
+      "elements": [
+        {
+          "id": "hab004b",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab004c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+1", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hab004d",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab004e",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+2", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab005a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "10", "right": "20", "bottom": "10", "left": "20"}
+      },
+      "elements": [
+        {
+          "id": "hab005b",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab005c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+3", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hab005d",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab005e",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+4", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab006a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "10", "right": "20", "bottom": "10", "left": "20"}
+      },
+      "elements": [
+        {
+          "id": "hab006b",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab006c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+5", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hab006d",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab006e",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+6", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab007a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "10", "right": "20", "bottom": "50", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "25", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "hab007b",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab007c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+7", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hab007d",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hab007e",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/700x900/a89f8f/ffffff?text=Galeria+8", "id": ""},
+                "image_size": "full"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab008a",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#EFEDE7",
+        "padding": {"unit": "px", "top": "70", "right": "20", "bottom": "70", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "40", "right": "15", "bottom": "40", "left": "15"}
+      },
+      "elements": [
+        {
+          "id": "hab008b",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hab008c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Habitación Estándar",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 30, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 2}
+              }
+            },
+            {
+              "id": "hab008d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Disfruta de la tranquilidad y el confort en esta habitación de Piedra de Moler, pensada para tu descanso perfecto.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+                "text_color": "#666666",
+                "_margin": {"unit": "px", "top": "10", "right": "0", "bottom": "25", "left": "0"}
+              }
+            },
+            {
+              "id": "hab008e",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "RESERVAR AHORA",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#8a8a7a",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_size": {"unit": "px", "size": 13},
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "14", "right": "34", "bottom": "14", "left": "34"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Plantilla Habitación - Piedra de Moler",
+  "type": "page"
+}

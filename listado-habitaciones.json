@@ -1,0 +1,864 @@
+{
+  "content": [
+    {
+      "id": "hl01a",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "50", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "45", "right": "15", "bottom": "25", "left": "15"}
+      },
+      "elements": [
+        {
+          "id": "hl01b",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hl01c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "NUESTRAS HABITACIONES",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 38, "sizes": []},
+                "typography_font_size_tablet": {"unit": "px", "size": 30},
+                "typography_font_size_mobile": {"unit": "px", "size": 24},
+                "typography_letter_spacing": {"unit": "px", "size": 3},
+                "typography_font_weight": "300",
+                "typography_text_transform": "uppercase"
+              }
+            },
+            {
+              "id": "hl01d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Encuentra el espacio perfecto para tu descanso en Piedra de Moler.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+                "text_color": "#666666",
+                "_margin": {"unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr01a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "15", "right": "20", "bottom": "15", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "gr01b",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm01im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Salitre", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm01tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Salitre",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm01bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr01c",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm02im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Guanenta", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm02tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guanenta",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm02bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr01d",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm03im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Lubigara", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm03tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Lubigara",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm03bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr02a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "15", "right": "20", "bottom": "15", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "gr02b",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm04im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Butaregua", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm04tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Butaregua",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm04bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr02c",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm05im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Arbolito", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm05tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Arbolito",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm05bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr02d",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm06im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Carare", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm06tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Carare",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm06bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr03a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "15", "right": "20", "bottom": "15", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "gr03b",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm07im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Guayabal", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm07tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guayabal",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm07bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr03c",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm08im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=San+Jose", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm08tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "San José",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm08bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr03d",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm09im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Llano", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm09tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Llano",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm09bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr04a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "15", "right": "20", "bottom": "15", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "gr04b",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm10im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Caucho", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm10tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Caucho",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm10bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr04c",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm11im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Santa+Helena", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm11tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Santa Helena",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm11bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr04d",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm12im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Guane", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm12tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guane",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm12bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gr05a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "gap": "narrow",
+        "padding": {"unit": "px", "top": "15", "right": "20", "bottom": "50", "left": "20"},
+        "padding_mobile": {"unit": "px", "top": "10", "right": "10", "bottom": "25", "left": "10"}
+      },
+      "elements": [
+        {
+          "id": "gr05x",
+          "elType": "column",
+          "settings": {"_column_size": 17},
+          "elements": []
+        },
+        {
+          "id": "gr05b",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm13im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Caraquitas", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm13tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Caraquitas",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm13bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr05c",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "rm14im",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/500x350/a89f8f/ffffff?text=Higueras", "id": ""},
+                "image_size": "full",
+                "width": {"unit": "%", "size": 100}
+              }
+            },
+            {
+              "id": "rm14tt",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Higueras",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#3a3a3a",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 18, "sizes": []},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "15", "right": "0", "bottom": "5", "left": "0"}
+              }
+            },
+            {
+              "id": "rm14bt",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DESCUBRIR MÁS",
+                "align": "center",
+                "link": {"url": "", "is_external": "", "nofollow": ""},
+                "background_color": "#a89f8f",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 12},
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_font_weight": "400",
+                "border_radius": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0"},
+                "text_padding": {"unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28"}
+              }
+            }
+          ]
+        },
+        {
+          "id": "gr05y",
+          "elType": "column",
+          "settings": {"_column_size": 17},
+          "elements": []
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Plantilla Habitaciones - Listado",
+  "type": "page"
+}
